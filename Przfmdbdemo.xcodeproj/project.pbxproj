@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9DCB2341C3E1A9A00A5F76C /* przTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCB2331C3E1A9A00A5F76C /* przTableViewCell.m */; };
+		D9DCB2371C3E39DB00A5F76C /* przViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCB2361C3E39DB00A5F76C /* przViewController.m */; };
+		D9DDC1A71C3CEC52001D814E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1A61C3CEC52001D814E /* main.m */; };
+		D9DDC1AA1C3CEC52001D814E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1A91C3CEC52001D814E /* AppDelegate.m */; };
+		D9DDC1B01C3CEC52001D814E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DDC1AE1C3CEC52001D814E /* Main.storyboard */; };
+		D9DDC1B21C3CEC52001D814E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DDC1B11C3CEC52001D814E /* Assets.xcassets */; };
+		D9DDC1B51C3CEC52001D814E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DDC1B31C3CEC52001D814E /* LaunchScreen.storyboard */; };
+		D9DDC1C01C3CEC52001D814E /* PrzfmdbdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1BF1C3CEC52001D814E /* PrzfmdbdemoTests.m */; };
+		D9DDC1CB1C3CEC52001D814E /* PrzfmdbdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1CA1C3CEC52001D814E /* PrzfmdbdemoUITests.m */; };
+		D9DDC1E41C3CECBD001D814E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1DA1C3CECBD001D814E /* FMDatabase.m */; };
+		D9DDC1E51C3CECBD001D814E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1DC1C3CECBD001D814E /* FMDatabaseAdditions.m */; };
+		D9DDC1E61C3CECBD001D814E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1DE1C3CECBD001D814E /* FMDatabasePool.m */; };
+		D9DDC1E71C3CECBD001D814E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1E01C3CECBD001D814E /* FMDatabaseQueue.m */; };
+		D9DDC1E81C3CECBD001D814E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1E31C3CECBD001D814E /* FMResultSet.m */; };
+		D9DDC1EB1C3CECF2001D814E /* fmdbssqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1EA1C3CECF2001D814E /* fmdbssqlite.m */; };
+		D9DDC1EE1C3CEDF8001D814E /* sqliteusermodel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1ED1C3CEDF8001D814E /* sqliteusermodel.m */; };
+		D9DDC1F31C3D0464001D814E /* CheckDB.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1F21C3D0464001D814E /* CheckDB.m */; };
+		D9DDC1F61C3D1FD1001D814E /* PTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1F51C3D1FD1001D814E /* PTableViewController.m */; };
+		D9DDC1F91C3D20FE001D814E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDC1F81C3D20FE001D814E /* ViewController.m */; };
+		D9E9060D1C434FDA008FDC71 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E9060C1C434FDA008FDC71 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9DDC1BC1C3CEC52001D814E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9DDC19A1C3CEC51001D814E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9DDC1A11C3CEC51001D814E;
+			remoteInfo = Przfmdbdemo;
+		};
+		D9DDC1C71C3CEC52001D814E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9DDC19A1C3CEC51001D814E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9DDC1A11C3CEC51001D814E;
+			remoteInfo = Przfmdbdemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9DCB2321C3E1A9A00A5F76C /* przTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = przTableViewCell.h; sourceTree = "<group>"; };
+		D9DCB2331C3E1A9A00A5F76C /* przTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = przTableViewCell.m; sourceTree = "<group>"; };
+		D9DCB2351C3E39DB00A5F76C /* przViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = przViewController.h; sourceTree = "<group>"; };
+		D9DCB2361C3E39DB00A5F76C /* przViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = przViewController.m; sourceTree = "<group>"; };
+		D9DDC1A21C3CEC51001D814E /* Przfmdbdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Przfmdbdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DDC1A61C3CEC52001D814E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9DDC1A81C3CEC52001D814E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9DDC1A91C3CEC52001D814E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9DDC1AF1C3CEC52001D814E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9DDC1B11C3CEC52001D814E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9DDC1B41C3CEC52001D814E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9DDC1B61C3CEC52001D814E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DDC1BB1C3CEC52001D814E /* PrzfmdbdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrzfmdbdemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DDC1BF1C3CEC52001D814E /* PrzfmdbdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrzfmdbdemoTests.m; sourceTree = "<group>"; };
+		D9DDC1C11C3CEC52001D814E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DDC1C61C3CEC52001D814E /* PrzfmdbdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrzfmdbdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DDC1CA1C3CEC52001D814E /* PrzfmdbdemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrzfmdbdemoUITests.m; sourceTree = "<group>"; };
+		D9DDC1CC1C3CEC52001D814E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DDC1D91C3CECBD001D814E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		D9DDC1DA1C3CECBD001D814E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		D9DDC1DB1C3CECBD001D814E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		D9DDC1DC1C3CECBD001D814E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		D9DDC1DD1C3CECBD001D814E /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		D9DDC1DE1C3CECBD001D814E /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		D9DDC1DF1C3CECBD001D814E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		D9DDC1E01C3CECBD001D814E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		D9DDC1E11C3CECBD001D814E /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		D9DDC1E21C3CECBD001D814E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		D9DDC1E31C3CECBD001D814E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		D9DDC1E91C3CECF2001D814E /* fmdbssqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmdbssqlite.h; sourceTree = "<group>"; };
+		D9DDC1EA1C3CECF2001D814E /* fmdbssqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fmdbssqlite.m; sourceTree = "<group>"; };
+		D9DDC1EC1C3CEDF8001D814E /* sqliteusermodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqliteusermodel.h; sourceTree = "<group>"; };
+		D9DDC1ED1C3CEDF8001D814E /* sqliteusermodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sqliteusermodel.m; sourceTree = "<group>"; };
+		D9DDC1F11C3D0464001D814E /* CheckDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckDB.h; sourceTree = "<group>"; };
+		D9DDC1F21C3D0464001D814E /* CheckDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckDB.m; sourceTree = "<group>"; };
+		D9DDC1F41C3D1FD1001D814E /* PTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTableViewController.h; sourceTree = "<group>"; };
+		D9DDC1F51C3D1FD1001D814E /* PTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTableViewController.m; sourceTree = "<group>"; };
+		D9DDC1F71C3D20FE001D814E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9DDC1F81C3D20FE001D814E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9E9060C1C434FDA008FDC71 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9DDC19F1C3CEC51001D814E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E9060D1C434FDA008FDC71 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DDC1B81C3CEC52001D814E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DDC1C31C3CEC52001D814E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9DDC1991C3CEC51001D814E = {
+			isa = PBXGroup;
+			children = (
+				D9E9060C1C434FDA008FDC71 /* libsqlite3.tbd */,
+				D9DDC1D81C3CECBD001D814E /* fmdb */,
+				D9DDC1A41C3CEC52001D814E /* Przfmdbdemo */,
+				D9DDC1BE1C3CEC52001D814E /* PrzfmdbdemoTests */,
+				D9DDC1C91C3CEC52001D814E /* PrzfmdbdemoUITests */,
+				D9DDC1A31C3CEC51001D814E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9DDC1A31C3CEC51001D814E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDC1A21C3CEC51001D814E /* Przfmdbdemo.app */,
+				D9DDC1BB1C3CEC52001D814E /* PrzfmdbdemoTests.xctest */,
+				D9DDC1C61C3CEC52001D814E /* PrzfmdbdemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9DDC1A41C3CEC52001D814E /* Przfmdbdemo */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDC1A81C3CEC52001D814E /* AppDelegate.h */,
+				D9DDC1A91C3CEC52001D814E /* AppDelegate.m */,
+				D9DDC1E91C3CECF2001D814E /* fmdbssqlite.h */,
+				D9DDC1EA1C3CECF2001D814E /* fmdbssqlite.m */,
+				D9DDC1F11C3D0464001D814E /* CheckDB.h */,
+				D9DDC1F21C3D0464001D814E /* CheckDB.m */,
+				D9DDC1EC1C3CEDF8001D814E /* sqliteusermodel.h */,
+				D9DDC1ED1C3CEDF8001D814E /* sqliteusermodel.m */,
+				D9DDC1F41C3D1FD1001D814E /* PTableViewController.h */,
+				D9DDC1F51C3D1FD1001D814E /* PTableViewController.m */,
+				D9DCB2321C3E1A9A00A5F76C /* przTableViewCell.h */,
+				D9DCB2331C3E1A9A00A5F76C /* przTableViewCell.m */,
+				D9DDC1F71C3D20FE001D814E /* ViewController.h */,
+				D9DDC1F81C3D20FE001D814E /* ViewController.m */,
+				D9DCB2351C3E39DB00A5F76C /* przViewController.h */,
+				D9DCB2361C3E39DB00A5F76C /* przViewController.m */,
+				D9DDC1AE1C3CEC52001D814E /* Main.storyboard */,
+				D9DDC1B11C3CEC52001D814E /* Assets.xcassets */,
+				D9DDC1B31C3CEC52001D814E /* LaunchScreen.storyboard */,
+				D9DDC1B61C3CEC52001D814E /* Info.plist */,
+				D9DDC1A51C3CEC52001D814E /* Supporting Files */,
+			);
+			path = Przfmdbdemo;
+			sourceTree = "<group>";
+		};
+		D9DDC1A51C3CEC52001D814E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDC1A61C3CEC52001D814E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9DDC1BE1C3CEC52001D814E /* PrzfmdbdemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDC1BF1C3CEC52001D814E /* PrzfmdbdemoTests.m */,
+				D9DDC1C11C3CEC52001D814E /* Info.plist */,
+			);
+			path = PrzfmdbdemoTests;
+			sourceTree = "<group>";
+		};
+		D9DDC1C91C3CEC52001D814E /* PrzfmdbdemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDC1CA1C3CEC52001D814E /* PrzfmdbdemoUITests.m */,
+				D9DDC1CC1C3CEC52001D814E /* Info.plist */,
+			);
+			path = PrzfmdbdemoUITests;
+			sourceTree = "<group>";
+		};
+		D9DDC1D81C3CECBD001D814E /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDC1D91C3CECBD001D814E /* FMDatabase.h */,
+				D9DDC1DA1C3CECBD001D814E /* FMDatabase.m */,
+				D9DDC1DB1C3CECBD001D814E /* FMDatabaseAdditions.h */,
+				D9DDC1DC1C3CECBD001D814E /* FMDatabaseAdditions.m */,
+				D9DDC1DD1C3CECBD001D814E /* FMDatabasePool.h */,
+				D9DDC1DE1C3CECBD001D814E /* FMDatabasePool.m */,
+				D9DDC1DF1C3CECBD001D814E /* FMDatabaseQueue.h */,
+				D9DDC1E01C3CECBD001D814E /* FMDatabaseQueue.m */,
+				D9DDC1E11C3CECBD001D814E /* FMDB.h */,
+				D9DDC1E21C3CECBD001D814E /* FMResultSet.h */,
+				D9DDC1E31C3CECBD001D814E /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9DDC1A11C3CEC51001D814E /* Przfmdbdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DDC1CF1C3CEC52001D814E /* Build configuration list for PBXNativeTarget "Przfmdbdemo" */;
+			buildPhases = (
+				D9DDC19E1C3CEC51001D814E /* Sources */,
+				D9DDC19F1C3CEC51001D814E /* Frameworks */,
+				D9DDC1A01C3CEC51001D814E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Przfmdbdemo;
+			productName = Przfmdbdemo;
+			productReference = D9DDC1A21C3CEC51001D814E /* Przfmdbdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9DDC1BA1C3CEC52001D814E /* PrzfmdbdemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DDC1D21C3CEC52001D814E /* Build configuration list for PBXNativeTarget "PrzfmdbdemoTests" */;
+			buildPhases = (
+				D9DDC1B71C3CEC52001D814E /* Sources */,
+				D9DDC1B81C3CEC52001D814E /* Frameworks */,
+				D9DDC1B91C3CEC52001D814E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9DDC1BD1C3CEC52001D814E /* PBXTargetDependency */,
+			);
+			name = PrzfmdbdemoTests;
+			productName = PrzfmdbdemoTests;
+			productReference = D9DDC1BB1C3CEC52001D814E /* PrzfmdbdemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9DDC1C51C3CEC52001D814E /* PrzfmdbdemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DDC1D51C3CEC52001D814E /* Build configuration list for PBXNativeTarget "PrzfmdbdemoUITests" */;
+			buildPhases = (
+				D9DDC1C21C3CEC52001D814E /* Sources */,
+				D9DDC1C31C3CEC52001D814E /* Frameworks */,
+				D9DDC1C41C3CEC52001D814E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9DDC1C81C3CEC52001D814E /* PBXTargetDependency */,
+			);
+			name = PrzfmdbdemoUITests;
+			productName = PrzfmdbdemoUITests;
+			productReference = D9DDC1C61C3CEC52001D814E /* PrzfmdbdemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9DDC19A1C3CEC51001D814E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = xiantian;
+				TargetAttributes = {
+					D9DDC1A11C3CEC51001D814E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					D9DDC1BA1C3CEC52001D814E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D9DDC1A11C3CEC51001D814E;
+					};
+					D9DDC1C51C3CEC52001D814E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D9DDC1A11C3CEC51001D814E;
+					};
+				};
+			};
+			buildConfigurationList = D9DDC19D1C3CEC51001D814E /* Build configuration list for PBXProject "Przfmdbdemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9DDC1991C3CEC51001D814E;
+			productRefGroup = D9DDC1A31C3CEC51001D814E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9DDC1A11C3CEC51001D814E /* Przfmdbdemo */,
+				D9DDC1BA1C3CEC52001D814E /* PrzfmdbdemoTests */,
+				D9DDC1C51C3CEC52001D814E /* PrzfmdbdemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9DDC1A01C3CEC51001D814E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DDC1B51C3CEC52001D814E /* LaunchScreen.storyboard in Resources */,
+				D9DDC1B21C3CEC52001D814E /* Assets.xcassets in Resources */,
+				D9DDC1B01C3CEC52001D814E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DDC1B91C3CEC52001D814E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DDC1C41C3CEC52001D814E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9DDC19E1C3CEC51001D814E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DDC1F61C3D1FD1001D814E /* PTableViewController.m in Sources */,
+				D9DDC1F31C3D0464001D814E /* CheckDB.m in Sources */,
+				D9DDC1EB1C3CECF2001D814E /* fmdbssqlite.m in Sources */,
+				D9DDC1E61C3CECBD001D814E /* FMDatabasePool.m in Sources */,
+				D9DDC1AA1C3CEC52001D814E /* AppDelegate.m in Sources */,
+				D9DCB2371C3E39DB00A5F76C /* przViewController.m in Sources */,
+				D9DDC1E71C3CECBD001D814E /* FMDatabaseQueue.m in Sources */,
+				D9DDC1F91C3D20FE001D814E /* ViewController.m in Sources */,
+				D9DDC1A71C3CEC52001D814E /* main.m in Sources */,
+				D9DDC1EE1C3CEDF8001D814E /* sqliteusermodel.m in Sources */,
+				D9DDC1E41C3CECBD001D814E /* FMDatabase.m in Sources */,
+				D9DDC1E81C3CECBD001D814E /* FMResultSet.m in Sources */,
+				D9DCB2341C3E1A9A00A5F76C /* przTableViewCell.m in Sources */,
+				D9DDC1E51C3CECBD001D814E /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DDC1B71C3CEC52001D814E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DDC1C01C3CEC52001D814E /* PrzfmdbdemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DDC1C21C3CEC52001D814E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DDC1CB1C3CEC52001D814E /* PrzfmdbdemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9DDC1BD1C3CEC52001D814E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9DDC1A11C3CEC51001D814E /* Przfmdbdemo */;
+			targetProxy = D9DDC1BC1C3CEC52001D814E /* PBXContainerItemProxy */;
+		};
+		D9DDC1C81C3CEC52001D814E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9DDC1A11C3CEC51001D814E /* Przfmdbdemo */;
+			targetProxy = D9DDC1C71C3CEC52001D814E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9DDC1AE1C3CEC52001D814E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9DDC1AF1C3CEC52001D814E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9DDC1B31C3CEC52001D814E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9DDC1B41C3CEC52001D814E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9DDC1CD1C3CEC52001D814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9DDC1CE1C3CEC52001D814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9DDC1D01C3CEC52001D814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Przfmdbdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiantian.Przfmdbdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9DDC1D11C3CEC52001D814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Przfmdbdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiantian.Przfmdbdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9DDC1D31C3CEC52001D814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrzfmdbdemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiantian.PrzfmdbdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Przfmdbdemo.app/Przfmdbdemo";
+			};
+			name = Debug;
+		};
+		D9DDC1D41C3CEC52001D814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrzfmdbdemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiantian.PrzfmdbdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Przfmdbdemo.app/Przfmdbdemo";
+			};
+			name = Release;
+		};
+		D9DDC1D61C3CEC52001D814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrzfmdbdemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiantian.PrzfmdbdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Przfmdbdemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D9DDC1D71C3CEC52001D814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrzfmdbdemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiantian.PrzfmdbdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Przfmdbdemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9DDC19D1C3CEC51001D814E /* Build configuration list for PBXProject "Przfmdbdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DDC1CD1C3CEC52001D814E /* Debug */,
+				D9DDC1CE1C3CEC52001D814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DDC1CF1C3CEC52001D814E /* Build configuration list for PBXNativeTarget "Przfmdbdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DDC1D01C3CEC52001D814E /* Debug */,
+				D9DDC1D11C3CEC52001D814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DDC1D21C3CEC52001D814E /* Build configuration list for PBXNativeTarget "PrzfmdbdemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DDC1D31C3CEC52001D814E /* Debug */,
+				D9DDC1D41C3CEC52001D814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DDC1D51C3CEC52001D814E /* Build configuration list for PBXNativeTarget "PrzfmdbdemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DDC1D61C3CEC52001D814E /* Debug */,
+				D9DDC1D71C3CEC52001D814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9DDC19A1C3CEC51001D814E /* Project object */;
+}
